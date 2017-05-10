@@ -1,0 +1,315 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Coordinator"
+- "AppCoordinator"
+provides-nominal:
+- "C16FlowCoordinators11Coordinator"
+- "C16FlowCoordinators14AppCoordinator"
+provides-member:
+- ["C16FlowCoordinators11Coordinator", ""]
+- ["C16FlowCoordinators14AppCoordinator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "==="
+- "AppCoordinator"
+- "AssignmentPrecedence"
+- "AuthenticationCoordinator"
+- "AuthenticationCoordinatorDelegate"
+- "BooleanLiteralType"
+- "Coordinator"
+- !private "Int"
+- !private "ProfileFlowCoordinator"
+- "ProfileFlowCoordinatorDelegate"
+- !private "StringLiteralType"
+- "UINavigationController"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "AuthenticationCoordinator"]
+- ["Ps9AnyObject", "Coordinator"]
+- !private ["Ps9AnyObject", "ProfileFlowCoordinator"]
+- !private ["Ps9AnyObject", "childCoordinators"]
+- ["Ps9AnyObject", "coordinatorDidAuthenticate"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isLoggedIn"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "removeCoordinator"]
+- !private ["Ps9AnyObject", "showAuthentication"]
+- !private ["Ps9AnyObject", "showProfile"]
+- !private ["Ps9AnyObject", "start"]
+- ["Ps9AnyObject", ""]
+- ["C16FlowCoordinators14AppCoordinator", "AuthenticationCoordinator"]
+- ["C16FlowCoordinators14AppCoordinator", "Coordinator"]
+- !private ["C16FlowCoordinators14AppCoordinator", "Int"]
+- !private ["C16FlowCoordinators14AppCoordinator", "ProfileFlowCoordinator"]
+- ["C16FlowCoordinators14AppCoordinator", "UINavigationController"]
+- !private ["C16FlowCoordinators14AppCoordinator", "childCoordinators"]
+- ["C16FlowCoordinators14AppCoordinator", "coordinatorDidAuthenticate"]
+- ["C16FlowCoordinators14AppCoordinator", "deinit"]
+- ["C16FlowCoordinators14AppCoordinator", "init"]
+- !private ["C16FlowCoordinators14AppCoordinator", "isLoggedIn"]
+- !private ["C16FlowCoordinators14AppCoordinator", "navigationController"]
+- !private ["C16FlowCoordinators14AppCoordinator", "print"]
+- !private ["C16FlowCoordinators14AppCoordinator", "removeCoordinator"]
+- !private ["C16FlowCoordinators14AppCoordinator", "showAuthentication"]
+- !private ["C16FlowCoordinators14AppCoordinator", "showProfile"]
+- ["C16FlowCoordinators14AppCoordinator", "start"]
+- !private ["Sa", "append"]
+- !private ["Sa", "enumerated"]
+- ["Sa", "init"]
+- !private ["Sa", "remove"]
+- !private ["C16FlowCoordinators25AuthenticationCoordinator", "delegate"]
+- !private ["C16FlowCoordinators25AuthenticationCoordinator", "init"]
+- !private ["C16FlowCoordinators25AuthenticationCoordinator", "start"]
+- !private ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "AuthenticationCoordinator"]
+- ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "Coordinator"]
+- !private ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "ProfileFlowCoordinator"]
+- !private ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "childCoordinators"]
+- ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "coordinatorDidAuthenticate"]
+- !private ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "isLoggedIn"]
+- !private ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "navigationController"]
+- !private ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "print"]
+- !private ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "removeCoordinator"]
+- !private ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "showAuthentication"]
+- !private ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "showProfile"]
+- ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", ""]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "enumerated"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "remove"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "enumerated"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "remove"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "enumerated"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "remove"]
+- !private ["Ps10Comparable", "init"]
+- ["C16FlowCoordinators11Coordinator", "deinit"]
+- !private ["C16FlowCoordinators11Coordinator", "delegate"]
+- ["C16FlowCoordinators11Coordinator", "init"]
+- !private ["C16FlowCoordinators11Coordinator", "start"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerated"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "enumerated"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "remove"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "enumerated"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "enumerated"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "delegate"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "init"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "start"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "delegate"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "init"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "start"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "delegate"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "init"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "start"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "enumerated"]
+- ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "remove"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "delegate"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "init"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "start"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "delegate"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "init"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "start"]
+- !private ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "AuthenticationCoordinator"]
+- ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "Coordinator"]
+- !private ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "ProfileFlowCoordinator"]
+- !private ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "childCoordinators"]
+- ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "coordinatorDidAuthenticate"]
+- !private ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "isLoggedIn"]
+- !private ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "navigationController"]
+- !private ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "print"]
+- !private ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "removeCoordinator"]
+- !private ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "showAuthentication"]
+- !private ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", "showProfile"]
+- ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", ""]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "delegate"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "init"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "start"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "enumerated"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "remove"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "enumerated"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "remove"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "enumerated"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "remove"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "delegate"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "init"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "start"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "delegate"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "init"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "start"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "enumerated"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "remove"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "enumerated"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "remove"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "enumerated"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "remove"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "enumerated"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "remove"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "enumerated"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "remove"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "enumerated"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "remove"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "enumerated"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "remove"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "enumerated"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "remove"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "enumerated"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "remove"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C16FlowCoordinators14AppCoordinator"
+- "Sa"
+- !private "C16FlowCoordinators25AuthenticationCoordinator"
+- "P16FlowCoordinators33AuthenticationCoordinatorDelegate"
+- "Ps23BidirectionalCollection"
+- !private "Sb"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "C16FlowCoordinators11Coordinator"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P16FlowCoordinators17FollowersDelegate"
+- !private "P16FlowCoordinators17FollowingDelegate"
+- !private "Ps8Hashable"
+- !private "P16FlowCoordinators27LoginViewControllerDelegate"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P16FlowCoordinators30PasswordViewControllerDelegate"
+- !private "C16FlowCoordinators22ProfileFlowCoordinator"
+- "P16FlowCoordinators30ProfileFlowCoordinatorDelegate"
+- !private "P16FlowCoordinators29ProfileViewControllerDelegate"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- !private "P16FlowCoordinators16SettingsDelegate"
+- !private "P16FlowCoordinators28SignupViewControllerDelegate"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "9954460197f25bfa022251ff2fab53e1"

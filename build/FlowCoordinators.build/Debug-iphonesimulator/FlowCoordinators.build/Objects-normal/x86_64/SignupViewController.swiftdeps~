@@ -1,0 +1,257 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SignupViewControllerDelegate"
+- "SignupViewModelType"
+- "SignupViewModel"
+- "SignupViewController"
+provides-nominal:
+- "P16FlowCoordinators28SignupViewControllerDelegate"
+- "P16FlowCoordinators19SignupViewModelType"
+- "V16FlowCoordinators15SignupViewModel"
+- "C16FlowCoordinators20SignupViewController"
+provides-member:
+- ["P16FlowCoordinators28SignupViewControllerDelegate", ""]
+- ["P16FlowCoordinators19SignupViewModelType", ""]
+- ["V16FlowCoordinators15SignupViewModel", ""]
+- ["C16FlowCoordinators20SignupViewController", ""]
+provides-dynamic-lookup:
+- "nextAction"
+depends-top-level:
+- "AssignmentPrecedence"
+- "NSCoder"
+- "SignupViewController"
+- "SignupViewControllerDelegate"
+- "SignupViewModel"
+- "SignupViewModelType"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "fatalError"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "viewModel"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "viewModel"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "viewModel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "viewModel"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "viewModel"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "viewModel"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "fatalError"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "viewModel"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "fatalError"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "viewModel"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "SignupViewControllerDelegate"]
+- ["CSo8NSObject", "SignupViewModelType"]
+- ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "nextAction"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "viewModel"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "viewModel"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["C16FlowCoordinators20SignupViewController", "NSCoder"]
+- ["C16FlowCoordinators20SignupViewController", "SignupViewControllerDelegate"]
+- ["C16FlowCoordinators20SignupViewController", "SignupViewModelType"]
+- ["C16FlowCoordinators20SignupViewController", "deinit"]
+- ["C16FlowCoordinators20SignupViewController", "delegate"]
+- !private ["C16FlowCoordinators20SignupViewController", "fatalError"]
+- ["C16FlowCoordinators20SignupViewController", "init"]
+- ["C16FlowCoordinators20SignupViewController", "nextAction"]
+- !private ["C16FlowCoordinators20SignupViewController", "print"]
+- ["C16FlowCoordinators20SignupViewController", "viewModel"]
+- ["P16FlowCoordinators28SignupViewControllerDelegate", "didCompleteSignup"]
+- ["V16FlowCoordinators15SignupViewModel", "deinit"]
+- ["V16FlowCoordinators15SignupViewModel", "init"]
+- ["P16FlowCoordinators19SignupViewModelType", ""]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "viewModel"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "fatalError"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "viewModel"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "viewModel"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "SignupViewControllerDelegate"]
+- ["CSo11UIResponder", "SignupViewModelType"]
+- ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "nextAction"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "viewModel"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "viewModel"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "fatalError"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "viewModel"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "viewModel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "NSCoder"]
+- ["CSo16UIViewController", "SignupViewControllerDelegate"]
+- ["CSo16UIViewController", "SignupViewModelType"]
+- ["CSo16UIViewController", "delegate"]
+- !private ["CSo16UIViewController", "fatalError"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "nextAction"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "viewModel"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "viewModel"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C16FlowCoordinators20SignupViewController"
+- "P16FlowCoordinators28SignupViewControllerDelegate"
+- "V16FlowCoordinators15SignupViewModel"
+- "P16FlowCoordinators19SignupViewModelType"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "201bcf34582e64c44d67679f8b188183"

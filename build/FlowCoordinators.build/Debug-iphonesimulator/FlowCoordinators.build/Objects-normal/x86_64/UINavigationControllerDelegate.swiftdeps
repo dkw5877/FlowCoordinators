@@ -1,0 +1,182 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NavigationControllerDelegate"
+provides-nominal:
+- "C16FlowCoordinators28NavigationControllerDelegate"
+provides-member:
+- ["C16FlowCoordinators28NavigationControllerDelegate", ""]
+provides-dynamic-lookup:
+- "navigationController"
+depends-top-level:
+- "AnimatedTransitioning"
+- "AssignmentPrecedence"
+- "NSObject"
+- !private "NavigationAnimator"
+- "NavigationControllerDelegate"
+- !private "StringLiteralType"
+- "UINavigationController"
+- "UINavigationControllerDelegate"
+- "UINavigationControllerOperation"
+- "UIPercentDrivenInteractiveTransition"
+- "UIViewController"
+- "UIViewControllerAnimatedTransitioning"
+- "UIViewControllerInteractiveTransitioning"
+depends-member:
+- !private ["P16FlowCoordinators21AnimatedTransitioning", "init"]
+- !private ["P16FlowCoordinators21AnimatedTransitioning", "operation"]
+- !private ["Ps9AnyObject", "NavigationAnimator"]
+- !private ["Ps9AnyObject", "animator"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "interactionController"]
+- ["Ps9AnyObject", "navigationController"]
+- ["Ps9AnyObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9AnyObject", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "NavigationAnimator"]
+- !private ["Ps7CVarArg", "animator"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "interactionController"]
+- ["Ps7CVarArg", "navigationController"]
+- ["Ps7CVarArg", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps7CVarArg", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NavigationAnimator"]
+- !private ["Ps28CustomDebugStringConvertible", "animator"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "interactionController"]
+- ["Ps28CustomDebugStringConvertible", "navigationController"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NavigationAnimator"]
+- !private ["Ps23CustomStringConvertible", "animator"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "interactionController"]
+- ["Ps23CustomStringConvertible", "navigationController"]
+- ["Ps23CustomStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps23CustomStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NavigationAnimator"]
+- !private ["Ps9Equatable", "animator"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "interactionController"]
+- ["Ps9Equatable", "navigationController"]
+- ["Ps9Equatable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9Equatable", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NavigationAnimator"]
+- !private ["Ps8Hashable", "animator"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "interactionController"]
+- ["Ps8Hashable", "navigationController"]
+- ["Ps8Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps8Hashable", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "AnimatedTransitioning"]
+- !private ["CSo8NSObject", "NavigationAnimator"]
+- ["CSo8NSObject", "UINavigationController"]
+- ["CSo8NSObject", "UINavigationControllerOperation"]
+- ["CSo8NSObject", "UIPercentDrivenInteractiveTransition"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "UIViewControllerAnimatedTransitioning"]
+- ["CSo8NSObject", "UIViewControllerInteractiveTransitioning"]
+- ["CSo8NSObject", "animator"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "interactionController"]
+- ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo8NSObject", "navigationControllerSupportedInterfaceOrientations"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NavigationAnimator"]
+- !private ["PSo16NSObjectProtocol", "animator"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "interactionController"]
+- ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16NSObjectProtocol", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo16NSObjectProtocol", "operation"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C16FlowCoordinators18NavigationAnimator", "deinit"]
+- !private ["C16FlowCoordinators18NavigationAnimator", "init"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "AnimatedTransitioning"]
+- !private ["C16FlowCoordinators28NavigationControllerDelegate", "NavigationAnimator"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "UINavigationController"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "UINavigationControllerOperation"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "UIPercentDrivenInteractiveTransition"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "UIViewController"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "UIViewControllerAnimatedTransitioning"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "UIViewControllerInteractiveTransitioning"]
+- !private ["C16FlowCoordinators28NavigationControllerDelegate", "animator"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "deinit"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "init"]
+- !private ["C16FlowCoordinators28NavigationControllerDelegate", "interactionController"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "navigationController"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["C16FlowCoordinators28NavigationControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Vs12StaticString", "init"]
+- !private ["PSo30UINavigationControllerDelegate", "NavigationAnimator"]
+- !private ["PSo30UINavigationControllerDelegate", "animator"]
+- !private ["PSo30UINavigationControllerDelegate", "interactionController"]
+- ["PSo30UINavigationControllerDelegate", "navigationController"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo30UINavigationControllerDelegate", ""]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "init"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "operation"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "NavigationAnimator"]
+- !private ["Ps9_Hashable", "animator"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "interactionController"]
+- ["Ps9_Hashable", "navigationController"]
+- ["Ps9_Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9_Hashable", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- !private "P16FlowCoordinators21AnimatedTransitioning"
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C16FlowCoordinators18NavigationAnimator"
+- "C16FlowCoordinators28NavigationControllerDelegate"
+- !private "Vs12StaticString"
+- "PSo30UINavigationControllerDelegate"
+- !private "PSo37UIViewControllerAnimatedTransitioning"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "2b50e5b811226016211dfacc18b4f6a4"

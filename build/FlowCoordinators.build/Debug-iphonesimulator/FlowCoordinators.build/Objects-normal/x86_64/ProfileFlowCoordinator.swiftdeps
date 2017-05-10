@@ -1,0 +1,626 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProfileFlowCoordinatorDelegate"
+- "ProfileFlowCoordinator"
+provides-nominal:
+- "P16FlowCoordinators30ProfileFlowCoordinatorDelegate"
+- "C16FlowCoordinators22ProfileFlowCoordinator"
+provides-member:
+- ["P16FlowCoordinators30ProfileFlowCoordinatorDelegate", ""]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Coordinator"
+- "FollowersDelegate"
+- !private "FollowersViewController"
+- !private "FollowersViewModel"
+- "FollowingDelegate"
+- !private "FollowingViewController"
+- !private "FollowingViewModel"
+- "NavigationControllerDelegate"
+- "ProfileFlowCoordinator"
+- "ProfileFlowCoordinatorDelegate"
+- "ProfileViewController"
+- "ProfileViewControllerDelegate"
+- !private "ProfileViewModel"
+- "SettingsDelegate"
+- !private "SettingsViewController"
+- !private "SettingsViewModel"
+- !private "StringLiteralType"
+- "UINavigationController"
+- !private "UIView"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "FollowersViewController"]
+- !private ["Ps9AnyObject", "FollowersViewModel"]
+- !private ["Ps9AnyObject", "FollowingViewController"]
+- !private ["Ps9AnyObject", "FollowingViewModel"]
+- !private ["Ps9AnyObject", "NavigationControllerDelegate"]
+- !private ["Ps9AnyObject", "ProfileViewController"]
+- !private ["Ps9AnyObject", "ProfileViewModel"]
+- !private ["Ps9AnyObject", "SettingsViewController"]
+- !private ["Ps9AnyObject", "SettingsViewModel"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didSelectFollowersAction"]
+- ["Ps9AnyObject", "didSelectFollowingAction"]
+- ["Ps9AnyObject", "didSelectSettingsAction"]
+- !private ["Ps9AnyObject", "dismiss"]
+- !private ["Ps9AnyObject", "dismissModal"]
+- ["Ps9AnyObject", "dismissSettingsViewController"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isKind"]
+- !private ["Ps9AnyObject", "isProfileViewContoller"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "navigationDelegate"]
+- !private ["Ps9AnyObject", "popViewController"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "profileViewController"]
+- !private ["Ps9AnyObject", "setViewControllers"]
+- !private ["Ps9AnyObject", "show"]
+- !private ["Ps9AnyObject", "showDetailViewController"]
+- !private ["Ps9AnyObject", "showFollowersViewController"]
+- !private ["Ps9AnyObject", "showFollowingViewController"]
+- !private ["Ps9AnyObject", "showSettingsViewController"]
+- !private ["Ps9AnyObject", "topViewController"]
+- !private ["Ps9AnyObject", "transition"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["PSo15CALayerDelegate", "transition"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "dismiss"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isKind"]
+- !private ["Ps7CVarArg", "popViewController"]
+- !private ["Ps7CVarArg", "setViewControllers"]
+- !private ["Ps7CVarArg", "show"]
+- !private ["Ps7CVarArg", "showDetailViewController"]
+- !private ["Ps7CVarArg", "topViewController"]
+- !private ["Ps7CVarArg", "transition"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps10Comparable", "init"]
+- ["C16FlowCoordinators11Coordinator", "Bool"]
+- !private ["C16FlowCoordinators11Coordinator", "FollowersViewController"]
+- !private ["C16FlowCoordinators11Coordinator", "FollowersViewModel"]
+- !private ["C16FlowCoordinators11Coordinator", "FollowingViewController"]
+- !private ["C16FlowCoordinators11Coordinator", "FollowingViewModel"]
+- ["C16FlowCoordinators11Coordinator", "NavigationControllerDelegate"]
+- ["C16FlowCoordinators11Coordinator", "ProfileFlowCoordinatorDelegate"]
+- ["C16FlowCoordinators11Coordinator", "ProfileViewController"]
+- !private ["C16FlowCoordinators11Coordinator", "ProfileViewModel"]
+- !private ["C16FlowCoordinators11Coordinator", "SettingsViewController"]
+- !private ["C16FlowCoordinators11Coordinator", "SettingsViewModel"]
+- ["C16FlowCoordinators11Coordinator", "UINavigationController"]
+- !private ["C16FlowCoordinators11Coordinator", "UIView"]
+- ["C16FlowCoordinators11Coordinator", "delegate"]
+- ["C16FlowCoordinators11Coordinator", "didSelectFollowersAction"]
+- ["C16FlowCoordinators11Coordinator", "didSelectFollowingAction"]
+- ["C16FlowCoordinators11Coordinator", "didSelectSettingsAction"]
+- ["C16FlowCoordinators11Coordinator", "dismissModal"]
+- ["C16FlowCoordinators11Coordinator", "dismissSettingsViewController"]
+- ["C16FlowCoordinators11Coordinator", "init"]
+- ["C16FlowCoordinators11Coordinator", "isProfileViewContoller"]
+- ["C16FlowCoordinators11Coordinator", "navigationController"]
+- ["C16FlowCoordinators11Coordinator", "navigationDelegate"]
+- ["C16FlowCoordinators11Coordinator", "popViewController"]
+- !private ["C16FlowCoordinators11Coordinator", "print"]
+- ["C16FlowCoordinators11Coordinator", "profileViewController"]
+- ["C16FlowCoordinators11Coordinator", "showFollowersViewController"]
+- ["C16FlowCoordinators11Coordinator", "showFollowingViewController"]
+- ["C16FlowCoordinators11Coordinator", "showSettingsViewController"]
+- ["C16FlowCoordinators11Coordinator", "start"]
+- ["C16FlowCoordinators11Coordinator", ""]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isKind"]
+- !private ["Ps28CustomDebugStringConvertible", "popViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "setViewControllers"]
+- !private ["Ps28CustomDebugStringConvertible", "show"]
+- !private ["Ps28CustomDebugStringConvertible", "showDetailViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "topViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "transition"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isKind"]
+- !private ["Ps23CustomStringConvertible", "popViewController"]
+- !private ["Ps23CustomStringConvertible", "setViewControllers"]
+- !private ["Ps23CustomStringConvertible", "show"]
+- !private ["Ps23CustomStringConvertible", "showDetailViewController"]
+- !private ["Ps23CustomStringConvertible", "topViewController"]
+- !private ["Ps23CustomStringConvertible", "transition"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "dismiss"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isKind"]
+- !private ["Ps9Equatable", "popViewController"]
+- !private ["Ps9Equatable", "setViewControllers"]
+- !private ["Ps9Equatable", "show"]
+- !private ["Ps9Equatable", "showDetailViewController"]
+- !private ["Ps9Equatable", "topViewController"]
+- !private ["Ps9Equatable", "transition"]
+- !private ["Ps9Equatable", "transitionCrossDissolve"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps25ExpressibleByArrayLiteral", "transitionCrossDissolve"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "FollowersViewController"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "FollowersViewModel"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "FollowingViewController"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "FollowingViewModel"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "NavigationControllerDelegate"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "ProfileViewController"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "ProfileViewModel"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "SettingsViewController"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "SettingsViewModel"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "UIView"]
+- ["P16FlowCoordinators17FollowersDelegate", "didSelectFollowersAction"]
+- ["P16FlowCoordinators17FollowersDelegate", "didSelectFollowingAction"]
+- ["P16FlowCoordinators17FollowersDelegate", "didSelectSettingsAction"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "dismissModal"]
+- ["P16FlowCoordinators17FollowersDelegate", "dismissSettingsViewController"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "isProfileViewContoller"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "navigationController"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "navigationDelegate"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "print"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "profileViewController"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "showFollowersViewController"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "showFollowingViewController"]
+- !private ["P16FlowCoordinators17FollowersDelegate", "showSettingsViewController"]
+- ["P16FlowCoordinators17FollowersDelegate", ""]
+- !private ["C16FlowCoordinators23FollowersViewController", "deinit"]
+- !private ["C16FlowCoordinators23FollowersViewController", "delegate"]
+- !private ["C16FlowCoordinators23FollowersViewController", "init"]
+- !private ["V16FlowCoordinators18FollowersViewModel", "deinit"]
+- !private ["V16FlowCoordinators18FollowersViewModel", "init"]
+- !private ["P16FlowCoordinators22FollowersViewModelType", "init"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "FollowersViewController"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "FollowersViewModel"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "FollowingViewController"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "FollowingViewModel"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "NavigationControllerDelegate"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "ProfileViewController"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "ProfileViewModel"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "SettingsViewController"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "SettingsViewModel"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "UIView"]
+- ["P16FlowCoordinators17FollowingDelegate", "didSelectFollowersAction"]
+- ["P16FlowCoordinators17FollowingDelegate", "didSelectFollowingAction"]
+- ["P16FlowCoordinators17FollowingDelegate", "didSelectSettingsAction"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "dismissModal"]
+- ["P16FlowCoordinators17FollowingDelegate", "dismissSettingsViewController"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "isProfileViewContoller"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "navigationController"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "navigationDelegate"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "print"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "profileViewController"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "showFollowersViewController"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "showFollowingViewController"]
+- !private ["P16FlowCoordinators17FollowingDelegate", "showSettingsViewController"]
+- ["P16FlowCoordinators17FollowingDelegate", ""]
+- !private ["C16FlowCoordinators23FollowingViewController", "deinit"]
+- !private ["C16FlowCoordinators23FollowingViewController", "delegate"]
+- !private ["C16FlowCoordinators23FollowingViewController", "init"]
+- !private ["V16FlowCoordinators18FollowingViewModel", "deinit"]
+- !private ["V16FlowCoordinators18FollowingViewModel", "init"]
+- !private ["P16FlowCoordinators22FollowingViewModelType", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "dismiss"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isKind"]
+- !private ["Ps8Hashable", "popViewController"]
+- !private ["Ps8Hashable", "setViewControllers"]
+- !private ["Ps8Hashable", "show"]
+- !private ["Ps8Hashable", "showDetailViewController"]
+- !private ["Ps8Hashable", "topViewController"]
+- !private ["Ps8Hashable", "transition"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "dismiss"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isKind"]
+- !private ["PSo8NSCoding", "popViewController"]
+- !private ["PSo8NSCoding", "setViewControllers"]
+- !private ["PSo8NSCoding", "show"]
+- !private ["PSo8NSCoding", "showDetailViewController"]
+- !private ["PSo8NSCoding", "topViewController"]
+- !private ["PSo8NSCoding", "transition"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isKind"]
+- !private ["PSo26NSExtensionRequestHandling", "popViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "setViewControllers"]
+- !private ["PSo26NSExtensionRequestHandling", "show"]
+- !private ["PSo26NSExtensionRequestHandling", "showDetailViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "topViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dismiss"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "isKind"]
+- !private ["CSo8NSObject", "popViewController"]
+- !private ["CSo8NSObject", "setViewControllers"]
+- !private ["CSo8NSObject", "show"]
+- !private ["CSo8NSObject", "showDetailViewController"]
+- !private ["CSo8NSObject", "topViewController"]
+- !private ["CSo8NSObject", "transition"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isKind"]
+- !private ["PSo16NSObjectProtocol", "popViewController"]
+- !private ["PSo16NSObjectProtocol", "setViewControllers"]
+- !private ["PSo16NSObjectProtocol", "show"]
+- !private ["PSo16NSObjectProtocol", "showDetailViewController"]
+- !private ["PSo16NSObjectProtocol", "topViewController"]
+- !private ["PSo16NSObjectProtocol", "transition"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C16FlowCoordinators28NavigationControllerDelegate", "deinit"]
+- !private ["C16FlowCoordinators28NavigationControllerDelegate", "init"]
+- !private ["Ps9OptionSet", "transitionCrossDissolve"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "Bool"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "FollowersViewController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "FollowersViewModel"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "FollowingViewController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "FollowingViewModel"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "NavigationControllerDelegate"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "ProfileFlowCoordinatorDelegate"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "ProfileViewController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "ProfileViewModel"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "SettingsViewController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "SettingsViewModel"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "UINavigationController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "UIView"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "deinit"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "delegate"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "didSelectFollowersAction"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "didSelectFollowingAction"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "didSelectSettingsAction"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "dismissModal"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "dismissSettingsViewController"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "init"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "isProfileViewContoller"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "navigationController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "navigationDelegate"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "popViewController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "print"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "profileViewController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "showFollowersViewController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "showFollowingViewController"]
+- !private ["C16FlowCoordinators22ProfileFlowCoordinator", "showSettingsViewController"]
+- ["C16FlowCoordinators22ProfileFlowCoordinator", "start"]
+- !private ["C16FlowCoordinators21ProfileViewController", "deinit"]
+- !private ["C16FlowCoordinators21ProfileViewController", "delegate"]
+- !private ["C16FlowCoordinators21ProfileViewController", "init"]
+- !private ["C16FlowCoordinators21ProfileViewController", "view"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "FollowersViewController"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "FollowersViewModel"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "FollowingViewController"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "FollowingViewModel"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "NavigationControllerDelegate"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "ProfileViewController"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "ProfileViewModel"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "SettingsViewController"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "SettingsViewModel"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "UIView"]
+- ["P16FlowCoordinators29ProfileViewControllerDelegate", "didSelectFollowersAction"]
+- ["P16FlowCoordinators29ProfileViewControllerDelegate", "didSelectFollowingAction"]
+- ["P16FlowCoordinators29ProfileViewControllerDelegate", "didSelectSettingsAction"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "dismissModal"]
+- ["P16FlowCoordinators29ProfileViewControllerDelegate", "dismissSettingsViewController"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "isProfileViewContoller"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "navigationController"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "navigationDelegate"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "print"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "profileViewController"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "showFollowersViewController"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "showFollowingViewController"]
+- !private ["P16FlowCoordinators29ProfileViewControllerDelegate", "showSettingsViewController"]
+- ["P16FlowCoordinators29ProfileViewControllerDelegate", ""]
+- !private ["V16FlowCoordinators16ProfileViewModel", "deinit"]
+- !private ["V16FlowCoordinators16ProfileViewModel", "init"]
+- !private ["P16FlowCoordinators20ProfileViewModelType", "init"]
+- !private ["Ps16RawRepresentable", "transitionCrossDissolve"]
+- !private ["Ps10SetAlgebra", "transitionCrossDissolve"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "FollowersViewController"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "FollowersViewModel"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "FollowingViewController"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "FollowingViewModel"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "NavigationControllerDelegate"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "ProfileViewController"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "ProfileViewModel"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "SettingsViewController"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "SettingsViewModel"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "UIView"]
+- ["P16FlowCoordinators16SettingsDelegate", "didSelectFollowersAction"]
+- ["P16FlowCoordinators16SettingsDelegate", "didSelectFollowingAction"]
+- ["P16FlowCoordinators16SettingsDelegate", "didSelectSettingsAction"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "dismissModal"]
+- ["P16FlowCoordinators16SettingsDelegate", "dismissSettingsViewController"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "isProfileViewContoller"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "navigationController"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "navigationDelegate"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "print"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "profileViewController"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "showFollowersViewController"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "showFollowingViewController"]
+- !private ["P16FlowCoordinators16SettingsDelegate", "showSettingsViewController"]
+- ["P16FlowCoordinators16SettingsDelegate", ""]
+- !private ["C16FlowCoordinators22SettingsViewController", "deinit"]
+- !private ["C16FlowCoordinators22SettingsViewController", "delegate"]
+- !private ["C16FlowCoordinators22SettingsViewController", "init"]
+- !private ["V16FlowCoordinators17SettingsViewModel", "deinit"]
+- !private ["V16FlowCoordinators17SettingsViewModel", "init"]
+- !private ["P16FlowCoordinators21SettingsViewModelType", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "transition"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "transition"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isKind"]
+- !private ["PSo21UIAppearanceContainer", "popViewController"]
+- !private ["PSo21UIAppearanceContainer", "setViewControllers"]
+- !private ["PSo21UIAppearanceContainer", "show"]
+- !private ["PSo21UIAppearanceContainer", "showDetailViewController"]
+- !private ["PSo21UIAppearanceContainer", "topViewController"]
+- !private ["PSo21UIAppearanceContainer", "transition"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isKind"]
+- !private ["PSo18UIContentContainer", "popViewController"]
+- !private ["PSo18UIContentContainer", "setViewControllers"]
+- !private ["PSo18UIContentContainer", "show"]
+- !private ["PSo18UIContentContainer", "showDetailViewController"]
+- !private ["PSo18UIContentContainer", "topViewController"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "transition"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "transition"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isKind"]
+- !private ["PSo18UIFocusEnvironment", "popViewController"]
+- !private ["PSo18UIFocusEnvironment", "setViewControllers"]
+- !private ["PSo18UIFocusEnvironment", "show"]
+- !private ["PSo18UIFocusEnvironment", "showDetailViewController"]
+- !private ["PSo18UIFocusEnvironment", "topViewController"]
+- !private ["PSo18UIFocusEnvironment", "transition"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["PSo11UIFocusItem", "transition"]
+- !private ["CSo22UINavigationController", "delegate"]
+- !private ["CSo22UINavigationController", "dismiss"]
+- !private ["CSo22UINavigationController", "popViewController"]
+- !private ["CSo22UINavigationController", "setViewControllers"]
+- !private ["CSo22UINavigationController", "show"]
+- !private ["CSo22UINavigationController", "showDetailViewController"]
+- !private ["CSo22UINavigationController", "topViewController"]
+- !private ["PSo30UINavigationControllerDelegate", "init"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "dismiss"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["CSo11UIResponder", "isKind"]
+- !private ["CSo11UIResponder", "popViewController"]
+- !private ["CSo11UIResponder", "setViewControllers"]
+- !private ["CSo11UIResponder", "show"]
+- !private ["CSo11UIResponder", "showDetailViewController"]
+- !private ["CSo11UIResponder", "topViewController"]
+- !private ["CSo11UIResponder", "transition"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isKind"]
+- !private ["PSo30UIResponderStandardEditActions", "popViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "setViewControllers"]
+- !private ["PSo30UIResponderStandardEditActions", "show"]
+- !private ["PSo30UIResponderStandardEditActions", "showDetailViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "topViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "transition"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isKind"]
+- !private ["PSo16UIStateRestoring", "popViewController"]
+- !private ["PSo16UIStateRestoring", "setViewControllers"]
+- !private ["PSo16UIStateRestoring", "show"]
+- !private ["PSo16UIStateRestoring", "showDetailViewController"]
+- !private ["PSo16UIStateRestoring", "topViewController"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isKind"]
+- !private ["PSo18UITraitEnvironment", "popViewController"]
+- !private ["PSo18UITraitEnvironment", "setViewControllers"]
+- !private ["PSo18UITraitEnvironment", "show"]
+- !private ["PSo18UITraitEnvironment", "showDetailViewController"]
+- !private ["PSo18UITraitEnvironment", "topViewController"]
+- !private ["PSo18UITraitEnvironment", "transition"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "transition"]
+- !private ["VSC22UIViewAnimationOptions", "transitionCrossDissolve"]
+- !private ["CSo16UIViewController", "delegate"]
+- !private ["CSo16UIViewController", "dismiss"]
+- !private ["CSo16UIViewController", "isKind"]
+- !private ["CSo16UIViewController", "popViewController"]
+- !private ["CSo16UIViewController", "setViewControllers"]
+- !private ["CSo16UIViewController", "show"]
+- !private ["CSo16UIViewController", "showDetailViewController"]
+- !private ["CSo16UIViewController", "topViewController"]
+- !private ["CSo16UIViewController", "view"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "transition"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "dismiss"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isKind"]
+- !private ["Ps9_Hashable", "popViewController"]
+- !private ["Ps9_Hashable", "setViewControllers"]
+- !private ["Ps9_Hashable", "show"]
+- !private ["Ps9_Hashable", "showDetailViewController"]
+- !private ["Ps9_Hashable", "topViewController"]
+- !private ["Ps9_Hashable", "transition"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "C16FlowCoordinators11Coordinator"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P16FlowCoordinators17FollowersDelegate"
+- !private "C16FlowCoordinators23FollowersViewController"
+- !private "V16FlowCoordinators18FollowersViewModel"
+- !private "P16FlowCoordinators22FollowersViewModelType"
+- "P16FlowCoordinators17FollowingDelegate"
+- !private "C16FlowCoordinators23FollowingViewController"
+- !private "V16FlowCoordinators18FollowingViewModel"
+- !private "P16FlowCoordinators22FollowingViewModelType"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C16FlowCoordinators28NavigationControllerDelegate"
+- !private "Ps9OptionSet"
+- "C16FlowCoordinators22ProfileFlowCoordinator"
+- !private "C16FlowCoordinators21ProfileViewController"
+- "P16FlowCoordinators29ProfileViewControllerDelegate"
+- !private "V16FlowCoordinators16ProfileViewModel"
+- !private "P16FlowCoordinators20ProfileViewModelType"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- "P16FlowCoordinators16SettingsDelegate"
+- !private "C16FlowCoordinators22SettingsViewController"
+- !private "V16FlowCoordinators17SettingsViewModel"
+- !private "P16FlowCoordinators21SettingsViewModelType"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo22UINavigationController"
+- !private "PSo30UINavigationControllerDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "VSC22UIViewAnimationOptions"
+- !private "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "b297b7e86a41beae07171cf04cade590"

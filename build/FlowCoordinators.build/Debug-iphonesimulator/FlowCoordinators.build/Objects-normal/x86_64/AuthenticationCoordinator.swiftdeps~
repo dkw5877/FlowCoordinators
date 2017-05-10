@@ -1,0 +1,343 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AuthenticationCoordinatorDelegate"
+- "AuthenticationCoordinator"
+provides-nominal:
+- "P16FlowCoordinators33AuthenticationCoordinatorDelegate"
+- "C16FlowCoordinators25AuthenticationCoordinator"
+provides-member:
+- ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", ""]
+- ["C16FlowCoordinators25AuthenticationCoordinator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "AuthenticationCoordinator"
+- "AuthenticationCoordinatorDelegate"
+- "Coordinator"
+- "LoginViewController"
+- "LoginViewControllerDelegate"
+- !private "LoginViewModel"
+- !private "PasswordViewController"
+- "PasswordViewControllerDelegate"
+- !private "PasswordViewModel"
+- !private "SignupViewController"
+- "SignupViewControllerDelegate"
+- !private "SignupViewModel"
+- "String"
+- !private "StringLiteralType"
+- "UINavigationController"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "LoginViewController"]
+- !private ["Ps9AnyObject", "LoginViewModel"]
+- !private ["Ps9AnyObject", "PasswordViewController"]
+- !private ["Ps9AnyObject", "PasswordViewModel"]
+- !private ["Ps9AnyObject", "SignupViewController"]
+- !private ["Ps9AnyObject", "SignupViewModel"]
+- !private ["Ps9AnyObject", "childViewControllers"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didChooseSignup"]
+- ["Ps9AnyObject", "didCompleteSignup"]
+- ["Ps9AnyObject", "didSignupWithEmailAndPassword"]
+- ["Ps9AnyObject", "didSuccessfullyLogin"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loginViewController"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "show"]
+- !private ["Ps9AnyObject", "showLoginViewController"]
+- !private ["Ps9AnyObject", "showPasswordViewController"]
+- !private ["Ps9AnyObject", "showSignupViewController"]
+- ["Ps9AnyObject", ""]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "AuthenticationCoordinatorDelegate"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "LoginViewController"]
+- !private ["C16FlowCoordinators25AuthenticationCoordinator", "LoginViewModel"]
+- !private ["C16FlowCoordinators25AuthenticationCoordinator", "PasswordViewController"]
+- !private ["C16FlowCoordinators25AuthenticationCoordinator", "PasswordViewModel"]
+- !private ["C16FlowCoordinators25AuthenticationCoordinator", "SignupViewController"]
+- !private ["C16FlowCoordinators25AuthenticationCoordinator", "SignupViewModel"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "String"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "UINavigationController"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "deinit"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "delegate"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "didChooseSignup"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "didCompleteSignup"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "didSignupWithEmailAndPassword"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "didSuccessfullyLogin"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "init"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "loginViewController"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "navigationController"]
+- !private ["C16FlowCoordinators25AuthenticationCoordinator", "print"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "showLoginViewController"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "showPasswordViewController"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "showSignupViewController"]
+- ["C16FlowCoordinators25AuthenticationCoordinator", "start"]
+- ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "AuthenticationCoordinator"]
+- ["P16FlowCoordinators33AuthenticationCoordinatorDelegate", "coordinatorDidAuthenticate"]
+- !private ["Ps7CVarArg", "childViewControllers"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "show"]
+- !private ["Ps10Comparable", "init"]
+- ["C16FlowCoordinators11Coordinator", "AuthenticationCoordinatorDelegate"]
+- ["C16FlowCoordinators11Coordinator", "LoginViewController"]
+- !private ["C16FlowCoordinators11Coordinator", "LoginViewModel"]
+- !private ["C16FlowCoordinators11Coordinator", "PasswordViewController"]
+- !private ["C16FlowCoordinators11Coordinator", "PasswordViewModel"]
+- !private ["C16FlowCoordinators11Coordinator", "SignupViewController"]
+- !private ["C16FlowCoordinators11Coordinator", "SignupViewModel"]
+- ["C16FlowCoordinators11Coordinator", "String"]
+- ["C16FlowCoordinators11Coordinator", "UINavigationController"]
+- ["C16FlowCoordinators11Coordinator", "delegate"]
+- ["C16FlowCoordinators11Coordinator", "didChooseSignup"]
+- ["C16FlowCoordinators11Coordinator", "didCompleteSignup"]
+- ["C16FlowCoordinators11Coordinator", "didSignupWithEmailAndPassword"]
+- ["C16FlowCoordinators11Coordinator", "didSuccessfullyLogin"]
+- ["C16FlowCoordinators11Coordinator", "init"]
+- ["C16FlowCoordinators11Coordinator", "loginViewController"]
+- ["C16FlowCoordinators11Coordinator", "navigationController"]
+- !private ["C16FlowCoordinators11Coordinator", "print"]
+- ["C16FlowCoordinators11Coordinator", "showLoginViewController"]
+- ["C16FlowCoordinators11Coordinator", "showPasswordViewController"]
+- ["C16FlowCoordinators11Coordinator", "showSignupViewController"]
+- ["C16FlowCoordinators11Coordinator", "start"]
+- ["C16FlowCoordinators11Coordinator", ""]
+- !private ["Ps28CustomDebugStringConvertible", "childViewControllers"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "show"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "childViewControllers"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "show"]
+- !private ["Ps9Equatable", "childViewControllers"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "show"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "childViewControllers"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "show"]
+- !private ["C16FlowCoordinators19LoginViewController", "deinit"]
+- !private ["C16FlowCoordinators19LoginViewController", "delegate"]
+- !private ["C16FlowCoordinators19LoginViewController", "init"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "LoginViewController"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "LoginViewModel"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "PasswordViewController"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "PasswordViewModel"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "SignupViewController"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "SignupViewModel"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "delegate"]
+- ["P16FlowCoordinators27LoginViewControllerDelegate", "didChooseSignup"]
+- ["P16FlowCoordinators27LoginViewControllerDelegate", "didCompleteSignup"]
+- ["P16FlowCoordinators27LoginViewControllerDelegate", "didSignupWithEmailAndPassword"]
+- ["P16FlowCoordinators27LoginViewControllerDelegate", "didSuccessfullyLogin"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "loginViewController"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "navigationController"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "print"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "showLoginViewController"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "showPasswordViewController"]
+- !private ["P16FlowCoordinators27LoginViewControllerDelegate", "showSignupViewController"]
+- ["P16FlowCoordinators27LoginViewControllerDelegate", ""]
+- !private ["V16FlowCoordinators14LoginViewModel", "deinit"]
+- !private ["V16FlowCoordinators14LoginViewModel", "init"]
+- !private ["P16FlowCoordinators18LoginViewModelType", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "childViewControllers"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "show"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "childViewControllers"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "show"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "childViewControllers"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "show"]
+- !private ["PSo16NSObjectProtocol", "childViewControllers"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "show"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C16FlowCoordinators22PasswordViewController", "deinit"]
+- !private ["C16FlowCoordinators22PasswordViewController", "delegate"]
+- !private ["C16FlowCoordinators22PasswordViewController", "init"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "LoginViewController"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "LoginViewModel"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "PasswordViewController"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "PasswordViewModel"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "SignupViewController"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "SignupViewModel"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "delegate"]
+- ["P16FlowCoordinators30PasswordViewControllerDelegate", "didChooseSignup"]
+- ["P16FlowCoordinators30PasswordViewControllerDelegate", "didCompleteSignup"]
+- ["P16FlowCoordinators30PasswordViewControllerDelegate", "didSignupWithEmailAndPassword"]
+- ["P16FlowCoordinators30PasswordViewControllerDelegate", "didSuccessfullyLogin"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "loginViewController"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "navigationController"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "print"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "showLoginViewController"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "showPasswordViewController"]
+- !private ["P16FlowCoordinators30PasswordViewControllerDelegate", "showSignupViewController"]
+- ["P16FlowCoordinators30PasswordViewControllerDelegate", ""]
+- !private ["V16FlowCoordinators17PasswordViewModel", "deinit"]
+- !private ["V16FlowCoordinators17PasswordViewModel", "init"]
+- !private ["P16FlowCoordinators21PasswordViewModelType", "init"]
+- !private ["C16FlowCoordinators20SignupViewController", "deinit"]
+- !private ["C16FlowCoordinators20SignupViewController", "delegate"]
+- !private ["C16FlowCoordinators20SignupViewController", "init"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "LoginViewController"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "LoginViewModel"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "PasswordViewController"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "PasswordViewModel"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "SignupViewController"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "SignupViewModel"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "delegate"]
+- ["P16FlowCoordinators28SignupViewControllerDelegate", "didChooseSignup"]
+- ["P16FlowCoordinators28SignupViewControllerDelegate", "didCompleteSignup"]
+- ["P16FlowCoordinators28SignupViewControllerDelegate", "didSignupWithEmailAndPassword"]
+- ["P16FlowCoordinators28SignupViewControllerDelegate", "didSuccessfullyLogin"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "loginViewController"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "navigationController"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "print"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "showLoginViewController"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "showPasswordViewController"]
+- !private ["P16FlowCoordinators28SignupViewControllerDelegate", "showSignupViewController"]
+- ["P16FlowCoordinators28SignupViewControllerDelegate", ""]
+- !private ["V16FlowCoordinators15SignupViewModel", "deinit"]
+- !private ["V16FlowCoordinators15SignupViewModel", "init"]
+- !private ["P16FlowCoordinators19SignupViewModelType", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "childViewControllers"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "show"]
+- !private ["PSo18UIContentContainer", "childViewControllers"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "show"]
+- !private ["PSo18UIFocusEnvironment", "childViewControllers"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "show"]
+- !private ["CSo22UINavigationController", "childViewControllers"]
+- !private ["CSo22UINavigationController", "show"]
+- !private ["CSo11UIResponder", "childViewControllers"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "show"]
+- !private ["PSo30UIResponderStandardEditActions", "childViewControllers"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "show"]
+- !private ["PSo16UIStateRestoring", "childViewControllers"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "show"]
+- !private ["PSo18UITraitEnvironment", "childViewControllers"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "show"]
+- !private ["CSo16UIViewController", "childViewControllers"]
+- !private ["CSo16UIViewController", "delegate"]
+- !private ["CSo16UIViewController", "show"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "childViewControllers"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "show"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C16FlowCoordinators25AuthenticationCoordinator"
+- "P16FlowCoordinators33AuthenticationCoordinatorDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "C16FlowCoordinators11Coordinator"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "C16FlowCoordinators19LoginViewController"
+- "P16FlowCoordinators27LoginViewControllerDelegate"
+- !private "V16FlowCoordinators14LoginViewModel"
+- !private "P16FlowCoordinators18LoginViewModelType"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C16FlowCoordinators22PasswordViewController"
+- "P16FlowCoordinators30PasswordViewControllerDelegate"
+- !private "V16FlowCoordinators17PasswordViewModel"
+- !private "P16FlowCoordinators21PasswordViewModelType"
+- !private "C16FlowCoordinators20SignupViewController"
+- "P16FlowCoordinators28SignupViewControllerDelegate"
+- !private "V16FlowCoordinators15SignupViewModel"
+- !private "P16FlowCoordinators19SignupViewModelType"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo16UIViewController"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "d5dfc98f7d3d99324b1ada1690f99969"

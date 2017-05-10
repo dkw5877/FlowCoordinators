@@ -1,0 +1,172 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TransitioningDelegate"
+provides-nominal:
+- "C16FlowCoordinators21TransitioningDelegate"
+provides-member:
+- ["C16FlowCoordinators21TransitioningDelegate", ""]
+provides-dynamic-lookup:
+- "animationController"
+- "presentationController"
+depends-top-level:
+- "NSObject"
+- !private "NavigationAnimator"
+- "TransitioningDelegate"
+- "UIPresentationController"
+- "UIViewController"
+- "UIViewControllerAnimatedTransitioning"
+- "UIViewControllerTransitioningDelegate"
+depends-member:
+- !private ["P16FlowCoordinators21AnimatedTransitioning", "init"]
+- !private ["Ps9AnyObject", "NavigationAnimator"]
+- ["Ps9AnyObject", "animationController"]
+- ["Ps9AnyObject", "animationControllerForDismissedController"]
+- ["Ps9AnyObject", "animationControllerForPresentedController"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "interactionControllerForDismissal"]
+- ["Ps9AnyObject", "interactionControllerForPresentation"]
+- ["Ps9AnyObject", "presentationController"]
+- ["Ps9AnyObject", "presentationControllerForPresentedViewController"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "NavigationAnimator"]
+- ["Ps7CVarArg", "animationController"]
+- ["Ps7CVarArg", "animationControllerForDismissedController"]
+- ["Ps7CVarArg", "animationControllerForPresentedController"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "interactionControllerForDismissal"]
+- ["Ps7CVarArg", "interactionControllerForPresentation"]
+- ["Ps7CVarArg", "presentationController"]
+- ["Ps7CVarArg", "presentationControllerForPresentedViewController"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NavigationAnimator"]
+- ["Ps28CustomDebugStringConvertible", "animationController"]
+- ["Ps28CustomDebugStringConvertible", "animationControllerForDismissedController"]
+- ["Ps28CustomDebugStringConvertible", "animationControllerForPresentedController"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "interactionControllerForDismissal"]
+- ["Ps28CustomDebugStringConvertible", "interactionControllerForPresentation"]
+- ["Ps28CustomDebugStringConvertible", "presentationController"]
+- ["Ps28CustomDebugStringConvertible", "presentationControllerForPresentedViewController"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NavigationAnimator"]
+- ["Ps23CustomStringConvertible", "animationController"]
+- ["Ps23CustomStringConvertible", "animationControllerForDismissedController"]
+- ["Ps23CustomStringConvertible", "animationControllerForPresentedController"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "interactionControllerForDismissal"]
+- ["Ps23CustomStringConvertible", "interactionControllerForPresentation"]
+- ["Ps23CustomStringConvertible", "presentationController"]
+- ["Ps23CustomStringConvertible", "presentationControllerForPresentedViewController"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NavigationAnimator"]
+- ["Ps9Equatable", "animationController"]
+- ["Ps9Equatable", "animationControllerForDismissedController"]
+- ["Ps9Equatable", "animationControllerForPresentedController"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "interactionControllerForDismissal"]
+- ["Ps9Equatable", "interactionControllerForPresentation"]
+- ["Ps9Equatable", "presentationController"]
+- ["Ps9Equatable", "presentationControllerForPresentedViewController"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "NavigationAnimator"]
+- ["Ps8Hashable", "animationController"]
+- ["Ps8Hashable", "animationControllerForDismissedController"]
+- ["Ps8Hashable", "animationControllerForPresentedController"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "interactionControllerForDismissal"]
+- ["Ps8Hashable", "interactionControllerForPresentation"]
+- ["Ps8Hashable", "presentationController"]
+- ["Ps8Hashable", "presentationControllerForPresentedViewController"]
+- ["Ps8Hashable", ""]
+- !private ["CSo8NSObject", "NavigationAnimator"]
+- ["CSo8NSObject", "UIPresentationController"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "UIViewControllerAnimatedTransitioning"]
+- ["CSo8NSObject", "animationController"]
+- ["CSo8NSObject", "animationControllerForDismissedController"]
+- ["CSo8NSObject", "animationControllerForPresentedController"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "interactionControllerForDismissal"]
+- ["CSo8NSObject", "interactionControllerForPresentation"]
+- ["CSo8NSObject", "presentationController"]
+- ["CSo8NSObject", "presentationControllerForPresentedViewController"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NavigationAnimator"]
+- ["PSo16NSObjectProtocol", "animationController"]
+- ["PSo16NSObjectProtocol", "animationControllerForDismissedController"]
+- ["PSo16NSObjectProtocol", "animationControllerForPresentedController"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "interactionControllerForDismissal"]
+- ["PSo16NSObjectProtocol", "interactionControllerForPresentation"]
+- ["PSo16NSObjectProtocol", "presentationController"]
+- ["PSo16NSObjectProtocol", "presentationControllerForPresentedViewController"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C16FlowCoordinators18NavigationAnimator", "deinit"]
+- !private ["C16FlowCoordinators18NavigationAnimator", "init"]
+- !private ["C16FlowCoordinators21TransitioningDelegate", "NavigationAnimator"]
+- ["C16FlowCoordinators21TransitioningDelegate", "UIPresentationController"]
+- ["C16FlowCoordinators21TransitioningDelegate", "UIViewController"]
+- ["C16FlowCoordinators21TransitioningDelegate", "UIViewControllerAnimatedTransitioning"]
+- ["C16FlowCoordinators21TransitioningDelegate", "animationController"]
+- ["C16FlowCoordinators21TransitioningDelegate", "animationControllerForDismissedController"]
+- ["C16FlowCoordinators21TransitioningDelegate", "animationControllerForPresentedController"]
+- ["C16FlowCoordinators21TransitioningDelegate", "deinit"]
+- ["C16FlowCoordinators21TransitioningDelegate", "init"]
+- ["C16FlowCoordinators21TransitioningDelegate", "interactionControllerForDismissal"]
+- ["C16FlowCoordinators21TransitioningDelegate", "interactionControllerForPresentation"]
+- ["C16FlowCoordinators21TransitioningDelegate", "presentationController"]
+- ["C16FlowCoordinators21TransitioningDelegate", "presentationControllerForPresentedViewController"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "init"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "NavigationAnimator"]
+- ["PSo37UIViewControllerTransitioningDelegate", "animationController"]
+- ["PSo37UIViewControllerTransitioningDelegate", "animationControllerForDismissedController"]
+- ["PSo37UIViewControllerTransitioningDelegate", "animationControllerForPresentedController"]
+- ["PSo37UIViewControllerTransitioningDelegate", "interactionControllerForDismissal"]
+- ["PSo37UIViewControllerTransitioningDelegate", "interactionControllerForPresentation"]
+- ["PSo37UIViewControllerTransitioningDelegate", "presentationController"]
+- ["PSo37UIViewControllerTransitioningDelegate", "presentationControllerForPresentedViewController"]
+- ["PSo37UIViewControllerTransitioningDelegate", ""]
+- !private ["Ps9_Hashable", "NavigationAnimator"]
+- ["Ps9_Hashable", "animationController"]
+- ["Ps9_Hashable", "animationControllerForDismissedController"]
+- ["Ps9_Hashable", "animationControllerForPresentedController"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "interactionControllerForDismissal"]
+- ["Ps9_Hashable", "interactionControllerForPresentation"]
+- ["Ps9_Hashable", "presentationController"]
+- ["Ps9_Hashable", "presentationControllerForPresentedViewController"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- !private "P16FlowCoordinators21AnimatedTransitioning"
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C16FlowCoordinators18NavigationAnimator"
+- "C16FlowCoordinators21TransitioningDelegate"
+- !private "PSo37UIViewControllerAnimatedTransitioning"
+- "PSo37UIViewControllerTransitioningDelegate"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "059e909045b41b2c2222d6092f202153"

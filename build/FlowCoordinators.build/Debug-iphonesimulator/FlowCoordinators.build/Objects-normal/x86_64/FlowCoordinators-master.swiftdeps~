@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "47173aedbb5442d2f433338334d9d1b3"
+build_time: [547669538, 161655000]
+inputs:
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Profile/FollowersViewController.swift": [547595397, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Authentication/LoginViewController.swift": [547331096, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Authentication/PasswordViewController.swift": [547331096, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Authentication/SignupViewController.swift": [547331096, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Profile/ProfileViewController.swift": [547669537, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Coordinators/ProfileFlowCoordinator.swift": [546489202, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Coordinators/AppCoordinator.swift": [547415540, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Profile/FollowingViewController.swift": [547613652, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Profile/SettingsViewController.swift": [547615894, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Coordinators/UINavigationControllerDelegate.swift": [547331096, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Coordinators/TransitioningDelegate.swift": [547331096, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/Coordinators/NavigationAnimator.swift": [547331096, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/AuthenticationCoordinator.swift": [547594962, 0]
+  "/Developer/Practice Projects/FlowCoordinators/FlowCoordinators/AppDelegate.swift": [547332010, 0]
