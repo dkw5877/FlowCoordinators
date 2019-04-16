@@ -55,19 +55,9 @@ extension AppCoordinator : AuthenticationCoordinatorDelegate {
         showProfile()
     }
 
-    //we need a better way to find coordinators
-    fileprivate func removeCoordinator(coordinator: Coordinator) {
-
-        var idx: Int?
-        for (index,value) in childCoordinators.enumerated() where value === coordinator {
-                idx = index
-                break
-        }
-
-        if let index = idx {
-            childCoordinators.remove(at: index)
-        }
-
+    fileprivate func removeCoordinator(coordinator:Coordinator) {
+        let arr = childCoordinators.filter {$0 !== coordinator}
+        childCoordinators = arr
     }
 }
 
