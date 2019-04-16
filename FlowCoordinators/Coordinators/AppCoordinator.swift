@@ -13,10 +13,10 @@ class Coordinator { }
 final class AppCoordinator {
 
     fileprivate var isLoggedIn = false
-    fileprivate let navigationController:UINavigationController
+    fileprivate let navigationController: UINavigationController
     fileprivate var childCoordinators = [Coordinator]()
 
-    init(with navigationController:UINavigationController) {
+    init(with navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
 
@@ -50,20 +50,18 @@ final class AppCoordinator {
 
 extension AppCoordinator : AuthenticationCoordinatorDelegate {
 
-    func coordinatorDidAuthenticate(coordinator:AuthenticationCoordinator) {
+    func coordinatorDidAuthenticate(coordinator: AuthenticationCoordinator) {
         removeCoordinator(coordinator: coordinator)
         showProfile()
     }
 
     //we need a better way to find coordinators
-    fileprivate func removeCoordinator(coordinator:Coordinator) {
+    fileprivate func removeCoordinator(coordinator: Coordinator) {
 
-        var idx:Int?
-        for (index,value) in childCoordinators.enumerated() {
-            if value === coordinator {
+        var idx: Int?
+        for (index,value) in childCoordinators.enumerated() where value === coordinator {
                 idx = index
                 break
-            }
         }
 
         if let index = idx {
@@ -74,5 +72,5 @@ extension AppCoordinator : AuthenticationCoordinatorDelegate {
 }
 
 extension AppCoordinator : ProfileFlowCoordinatorDelegate {
-    //TODO:
+
 }

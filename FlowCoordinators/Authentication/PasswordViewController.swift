@@ -9,19 +9,19 @@
 import UIKit
 
 protocol PasswordViewControllerDelegate:class {
-    func didSignupWithEmailAndPassword(email:String, passowrd:String)
+    func didSignupWithEmailAndPassword(email: String, passowrd: String)
 }
 
 protocol PasswordViewModelType { }
 
-struct PasswordViewModel:PasswordViewModelType { }
+struct PasswordViewModel: PasswordViewModelType { }
 
 final class PasswordViewController: UIViewController {
 
-    weak var delegate:PasswordViewControllerDelegate?
-    let viewModel:PasswordViewModelType
+    weak var delegate: PasswordViewControllerDelegate?
+    let viewModel: PasswordViewModelType
 
-    init(viewModel:PasswordViewModelType) {
+    init(viewModel: PasswordViewModelType) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }

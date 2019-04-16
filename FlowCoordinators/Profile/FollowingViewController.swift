@@ -10,27 +10,31 @@ import UIKit
 
 protocol FollowingDelegate:class { }
 
-protocol FollowingViewModelType { }
+protocol FollowingViewModelType {
+    var title:String { get }
+}
 
-struct FollowingViewModel:FollowingViewModelType { }
+struct FollowingViewModel: FollowingViewModelType {
+    let title:String = "Following"
+}
 
 final class FollowingViewController: UIViewController {
 
-    weak var delegate:FollowingDelegate?
-    let viewModel:FollowingViewModelType
+    weak var delegate: FollowingDelegate?
+    let viewModel: FollowingViewModelType
 
-    init(viewModel:FollowingViewModelType) {
+    init(viewModel: FollowingViewModelType) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Following"
+        title = viewModel.title
     }
 
 }

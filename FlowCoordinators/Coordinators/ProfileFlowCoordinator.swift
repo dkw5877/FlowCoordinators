@@ -9,20 +9,20 @@ import UIKit
 
 protocol ProfileFlowCoordinatorDelegate:class { }
 
-final class ProfileFlowCoordinator:Coordinator {
+final class ProfileFlowCoordinator: Coordinator {
 
-    fileprivate let navigationController:UINavigationController
-    fileprivate let profileViewController:ProfileViewController
-    fileprivate let navigationDelegate:NavigationControllerDelegate?
+    fileprivate let navigationController: UINavigationController
+    fileprivate let profileViewController: ProfileViewController
+    fileprivate let navigationDelegate: NavigationControllerDelegate?
 
-    fileprivate var isProfileViewContoller:Bool {
-        guard let _ = navigationController.topViewController?.isKind(of: ProfileViewController.self) else { return false }
-        return true
+    fileprivate var isProfileViewContoller: Bool {
+        guard let isProfileVC = navigationController.topViewController?.isKind(of: ProfileViewController.self) else { return false }
+        return isProfileVC
     }
 
-    weak var delegate:ProfileFlowCoordinatorDelegate?
+    weak var delegate: ProfileFlowCoordinatorDelegate?
 
-    init(navigationController:UINavigationController) {
+    init(navigationController: UINavigationController) {
         self.navigationController = navigationController
         navigationDelegate = NavigationControllerDelegate()
         self.navigationController.delegate = navigationDelegate
@@ -44,7 +44,7 @@ final class ProfileFlowCoordinator:Coordinator {
 
         //simple animation function
         profileViewController.view.frame = topViewController.view.frame
-        UIView.transition(from:topViewController.view , to: profileViewController.view, duration: 0.50, options: .transitionCrossDissolve) {[unowned self] (finished) in
+        UIView.transition(from:topViewController.view, to: profileViewController.view, duration: 0.50, options: .transitionCrossDissolve) {[unowned self] (_) in
             self.navigationController.setViewControllers([self.profileViewController], animated: false)
         }
 
@@ -107,11 +107,11 @@ extension ProfileFlowCoordinator : ProfileViewControllerDelegate {
 }
 
 extension ProfileFlowCoordinator : FollowingDelegate {
-    //TODO:
+
 }
 
 extension ProfileFlowCoordinator : FollowersDelegate {
-    //TODO:
+
 }
 
 extension ProfileFlowCoordinator : SettingsDelegate {

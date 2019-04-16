@@ -16,14 +16,14 @@ protocol ProfileViewControllerDelegate:class  {
 
 protocol ProfileViewModelType { }
 
-struct ProfileViewModel:ProfileViewModelType { }
+struct ProfileViewModel: ProfileViewModelType { }
 
 final class ProfileViewController: UIViewController {
 
-    weak var delegate:ProfileViewControllerDelegate?
-    let viewModel:ProfileViewModelType
+    weak var delegate: ProfileViewControllerDelegate?
+    let viewModel: ProfileViewModelType
 
-    init(viewModel:ProfileViewModelType) {
+    init(viewModel: ProfileViewModelType) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
@@ -35,12 +35,9 @@ final class ProfileViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         let gradient = CAGradientLayer()
         gradient.frame = view.bounds
-        let blue = UIColor(colorLiteralRed: 81/255, green: 123/255, blue: 169/255, alpha: 1.0)
-        let midnight = UIColor(colorLiteralRed: 25/255, green: 25/255, blue: 112/255, alpha: 1.0)
-        gradient.colors = [blue.cgColor, midnight.cgColor]
+        gradient.colors = [Theme.blue.cgColor, Theme.midnight.cgColor]
         view.layer.insertSublayer(gradient, at: 0)
     }
-    
 
     @IBAction func settingsAction(_ sender: Any) {
         delegate?.didSelectSettingsAction()

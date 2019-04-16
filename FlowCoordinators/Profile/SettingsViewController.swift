@@ -14,40 +14,56 @@ protocol SettingsDelegate:class {
 
 protocol SettingsViewModelType { }
 
-struct SettingsViewModel:SettingsViewModelType { }
+struct SettingsViewModel: SettingsViewModelType { }
 
 final class SettingsViewController: UIViewController {
 
-    weak var delegate:SettingsDelegate?
-    let viewModel:SettingsViewModelType
+    weak var delegate: SettingsDelegate?
+    let viewModel: SettingsViewModelType
 
-    init(viewModel:SettingsViewModelType) {
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
+    init(viewModel: SettingsViewModelType) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = Theme.accentColor
+        setupImageView()
+        setupDismissButton()
+    }
+    
+    private func setupImageView() {
         let image = UIImage(named: "Settings")
         let imageView = UIImageView(image: image)
+        imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(imageView)
-        imageView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        imageView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        imageView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        imageView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        
+        NSLayoutConstraint.activate([
+            imageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            imageView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            imageView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+            imageView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+            ])
+    }
+    
+    private func setupDismissButton() {
         let button = UIButton(frame: view.bounds)
         button.center = view.center
         button.addTarget(self, action: #selector(dismissViewController(sender:)), for: .touchUpInside)
         view.addSubview(button)
     }
 
-    func dismissViewController(sender:Any) {
-        print("dismiss button pressed")
+    @objc func dismissViewController(sender:Any) {
         delegate?.dismissSettingsViewController()
     }
 

@@ -14,14 +14,14 @@ protocol SignupViewControllerDelegate:class {
 
 protocol SignupViewModelType { }
 
-struct SignupViewModel:SignupViewModelType { }
+struct SignupViewModel: SignupViewModelType { }
 
 final class SignupViewController: UIViewController {
 
-    weak var delegate:SignupViewControllerDelegate?
-    let viewModel:SignupViewModelType
+    weak var delegate: SignupViewControllerDelegate?
+    let viewModel: SignupViewModelType
 
-    init(viewModel:SignupViewModelType) {
+    init(viewModel: SignupViewModelType) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
@@ -34,7 +34,7 @@ final class SignupViewController: UIViewController {
         print("deallocing \(self)")
     }
 
-    @IBAction func nextAction(sender:Any){
+    @IBAction func nextAction(sender: Any){
         delegate?.didCompleteSignup()
     }
 

@@ -8,16 +8,16 @@
 import UIKit
 
 protocol AuthenticationCoordinatorDelegate:class {
-    func coordinatorDidAuthenticate(coordinator:AuthenticationCoordinator)
+    func coordinatorDidAuthenticate(coordinator: AuthenticationCoordinator)
 }
 
-final class AuthenticationCoordinator:Coordinator {
+final class AuthenticationCoordinator: Coordinator {
 
-    weak var delegate:AuthenticationCoordinatorDelegate?
-    let navigationController:UINavigationController
-    let loginViewController:LoginViewController
+    weak var delegate: AuthenticationCoordinatorDelegate?
+    let navigationController: UINavigationController
+    let loginViewController: LoginViewController
 
-    init(navigationController:UINavigationController) {
+    init(navigationController: UINavigationController) {
         self.navigationController = navigationController
         let viewModel = LoginViewModel()
         self.loginViewController = LoginViewController(viewModel:viewModel)
@@ -54,7 +54,7 @@ final class AuthenticationCoordinator:Coordinator {
 extension AuthenticationCoordinator : LoginViewControllerDelegate {
 
     func didSuccessfullyLogin() {
-        print(navigationController.childViewControllers)
+        print(navigationController.children)
         delegate?.coordinatorDidAuthenticate(coordinator: self)
     }
 

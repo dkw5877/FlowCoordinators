@@ -15,18 +15,18 @@ protocol LoginViewControllerDelegate:class {
 
 protocol LoginViewModelType { }
 
-struct LoginViewModel:LoginViewModelType { }
+struct LoginViewModel: LoginViewModelType { }
 
 final class LoginViewController: UIViewController {
 
-    weak var delegate:LoginViewControllerDelegate?
-    let viewModel:LoginViewModelType
+    weak var delegate: LoginViewControllerDelegate?
+    let viewModel: LoginViewModelType
 
-    init(viewModel:LoginViewModelType) {
+    init(viewModel: LoginViewModelType) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -38,7 +38,6 @@ final class LoginViewController: UIViewController {
     @IBAction func loginAction(_ sender: Any) {
         delegate?.didSuccessfullyLogin()
     }
-
 
     @IBAction func signupAction(_ sender: Any) {
         delegate?.didChooseSignup()

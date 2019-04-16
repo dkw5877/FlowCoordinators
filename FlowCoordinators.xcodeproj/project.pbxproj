@@ -32,6 +32,7 @@
 		CE5DB8261EBD1A6900EDAA4E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB8211EBD1A6900EDAA4E /* SettingsViewController.swift */; };
 		CEBD49081EC1647F00D7493E /* FollowingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBD49071EC1647F00D7493E /* FollowingViewController.xib */; };
 		CEBD490A1EC166D300D7493E /* FollowersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBD49091EC166D300D7493E /* FollowersViewController.xib */; };
+		CEE0ACAF2266165F00A66512 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0ACAE2266165F00A66512 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2FD6001F26B1E20002E720 /* FlowCoordinators.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowCoordinators.entitlements; sourceTree = "<group>"; };
 		CE5DB7D21EBD192900EDAA4E /* FlowCoordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowCoordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5DB7D51EBD192900EDAA4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5DB7DA1EBD192900EDAA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		CE5DB8211EBD1A6900EDAA4E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Profile/SettingsViewController.swift; sourceTree = "<group>"; };
 		CEBD49071EC1647F00D7493E /* FollowingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FollowingViewController.xib; path = Profile/FollowingViewController.xib; sourceTree = "<group>"; };
 		CEBD49091EC166D300D7493E /* FollowersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FollowersViewController.xib; path = Profile/FollowersViewController.xib; sourceTree = "<group>"; };
+		CEE0ACAE2266165F00A66512 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,10 +136,12 @@
 		CE5DB7D41EBD192900EDAA4E /* FlowCoordinators */ = {
 			isa = PBXGroup;
 			children = (
+				CE2FD6001F26B1E20002E720 /* FlowCoordinators.entitlements */,
 				CE5DB8271EBD1A7100EDAA4E /* Profile */,
 				CE5DB81C1EBD1A5400EDAA4E /* Authentication */,
 				CE5DB80D1EBD19B300EDAA4E /* Coordinators */,
 				CE5DB7D51EBD192900EDAA4E /* AppDelegate.swift */,
+				CEE0ACAE2266165F00A66512 /* Theme.swift */,
 				CE5DB7D91EBD192900EDAA4E /* Main.storyboard */,
 				CE5DB7DC1EBD192900EDAA4E /* Assets.xcassets */,
 				CE5DB7DE1EBD192900EDAA4E /* LaunchScreen.storyboard */,
@@ -213,6 +218,7 @@
 				CE5DB7CE1EBD192900EDAA4E /* Sources */,
 				CE5DB7CF1EBD192900EDAA4E /* Frameworks */,
 				CE5DB7D01EBD192900EDAA4E /* Resources */,
+				CE6252891F229711004B98ED /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -266,23 +272,30 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = someCompanyNameHere;
 				TargetAttributes = {
 					CE5DB7D11EBD192900EDAA4E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = S264RF7436;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
 					};
 					CE5DB7E51EBD192900EDAA4E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = S264RF7436;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE5DB7D11EBD192900EDAA4E;
 					};
 					CE5DB7F01EBD192900EDAA4E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = S264RF7436;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE5DB7D11EBD192900EDAA4E;
 					};
@@ -290,7 +303,7 @@
 			};
 			buildConfigurationList = CE5DB7CD1EBD192900EDAA4E /* Build configuration list for PBXProject "FlowCoordinators" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -341,6 +354,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE6252891F229711004B98ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE5DB7CE1EBD192900EDAA4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -358,6 +387,7 @@
 				CE5DB80C1EBD19AC00EDAA4E /* UINavigationControllerDelegate.swift in Sources */,
 				CE5DB80B1EBD19AC00EDAA4E /* TransitioningDelegate.swift in Sources */,
 				CE5DB8091EBD19AC00EDAA4E /* NavigationAnimator.swift in Sources */,
+				CEE0ACAF2266165F00A66512 /* Theme.swift in Sources */,
 				CE5DB80F1EBD1A2D00EDAA4E /* AuthenticationCoordinator.swift in Sources */,
 				CE5DB7D61EBD192900EDAA4E /* AppDelegate.swift in Sources */,
 			);
@@ -418,21 +448,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -455,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -469,21 +508,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -500,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -513,12 +561,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S264RF7436;
+				CODE_SIGN_ENTITLEMENTS = FlowCoordinators/FlowCoordinators.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FlowCoordinators/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinators;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlowCoordinators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -526,12 +575,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S264RF7436;
+				CODE_SIGN_ENTITLEMENTS = FlowCoordinators/FlowCoordinators.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FlowCoordinators/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinators;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlowCoordinators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -545,7 +595,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinatorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowCoordinators.app/FlowCoordinators";
 			};
 			name = Debug;
@@ -560,7 +610,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinatorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowCoordinators.app/FlowCoordinators";
 			};
 			name = Release;
@@ -574,7 +624,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinatorsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = FlowCoordinators;
 			};
 			name = Debug;
@@ -588,7 +638,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinatorsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = FlowCoordinators;
 			};
 			name = Release;

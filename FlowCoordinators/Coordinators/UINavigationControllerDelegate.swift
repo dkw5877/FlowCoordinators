@@ -8,12 +8,12 @@
 
 import UIKit
 
-final class NavigationControllerDelegate:NSObject {
+final class NavigationControllerDelegate: NSObject {
 
-    fileprivate var animator:AnimatedTransitioning!
-    fileprivate var interactionController:UIPercentDrivenInteractiveTransition?
+    fileprivate var animator: AnimatedTransitioning!
+    fileprivate var interactionController: UIPercentDrivenInteractiveTransition?
 
-    init(animator:AnimatedTransitioning = NavigationAnimator()) {
+    init(animator: AnimatedTransitioning = NavigationAnimator()) {
         self.animator = animator
     }
 
@@ -21,7 +21,7 @@ final class NavigationControllerDelegate:NSObject {
 
 extension NavigationControllerDelegate : UINavigationControllerDelegate {
 
-    public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         animator.operation = operation
         return animator
     }
