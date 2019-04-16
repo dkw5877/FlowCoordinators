@@ -271,17 +271,20 @@
 				TargetAttributes = {
 					CE5DB7D11EBD192900EDAA4E = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Manual;
 					};
 					CE5DB7E51EBD192900EDAA4E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = S264RF7436;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE5DB7D11EBD192900EDAA4E;
 					};
 					CE5DB7F01EBD192900EDAA4E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = S264RF7436;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE5DB7D11EBD192900EDAA4E;
 					};
@@ -519,7 +522,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.free.flowcoordinators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -534,7 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.free.flowcoordinators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -548,7 +551,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinatorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowCoordinators.app/FlowCoordinators";
 			};
 			name = Debug;
@@ -563,7 +566,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinatorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowCoordinators.app/FlowCoordinators";
 			};
 			name = Release;
@@ -577,7 +580,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinatorsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = FlowCoordinators;
 			};
 			name = Debug;
@@ -591,7 +594,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.FlowCoordinatorsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = FlowCoordinators;
 			};
 			name = Release;

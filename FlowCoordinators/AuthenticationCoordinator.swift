@@ -54,7 +54,7 @@ final class AuthenticationCoordinator:Coordinator {
 extension AuthenticationCoordinator : LoginViewControllerDelegate {
 
     func didSuccessfullyLogin() {
-        print(navigationController.childViewControllers)
+        print(navigationController.children)
         delegate?.coordinatorDidAuthenticate(coordinator: self)
     }
 

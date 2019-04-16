@@ -13,7 +13,7 @@ import UIKit
  */
 protocol AnimatedTransitioning:UIViewControllerAnimatedTransitioning {
 
-    var operation:UINavigationControllerOperation { get set }
+    var operation:UINavigationController.Operation { get set }
     var dampening:CGFloat { get set }
     var velocity:CGFloat { get set }
 }
@@ -23,7 +23,7 @@ protocol AnimatedTransitioning:UIViewControllerAnimatedTransitioning {
  */
 final class NavigationAnimator: NSObject, AnimatedTransitioning {
 
-    var operation:UINavigationControllerOperation = .none
+    var operation:UINavigationController.Operation = .none
     var dampening:CGFloat = 1.0
     var velocity:CGFloat = 1.0
 
