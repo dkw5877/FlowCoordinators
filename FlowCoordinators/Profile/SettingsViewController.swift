@@ -46,7 +46,7 @@ final class SettingsViewController: UIViewController {
         view.addSubview(button)
     }
 
-    func dismissViewController(sender:Any) {
+    @objc func dismissViewController(sender:Any) {
         print("dismiss button pressed")
         delegate?.dismissSettingsViewController()
     }

@@ -35,8 +35,9 @@ final class ProfileViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         let gradient = CAGradientLayer()
         gradient.frame = view.bounds
-        let blue = UIColor(colorLiteralRed: 81/255, green: 123/255, blue: 169/255, alpha: 1.0)
-        let midnight = UIColor(colorLiteralRed: 25/255, green: 25/255, blue: 112/255, alpha: 1.0)
+      
+        let blue = UIColor(red: 81/255, green: 123/255, blue: 169/255, alpha: 1.0)
+        let midnight = UIColor(red: 25/255, green: 25/255, blue: 112/255, alpha: 1.0)
         gradient.colors = [blue.cgColor, midnight.cgColor]
         view.layer.insertSublayer(gradient, at: 0)
     }
